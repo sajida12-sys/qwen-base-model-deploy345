@@ -1,16 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
 
     <title>Qwen Base AI</title>
 
     <style>
-
         * {
             box-sizing: border-box;
         }
@@ -23,7 +22,7 @@
         }
 
         header {
-            background: #ffffff;
+            background: white;
             padding: 25px;
             text-align: center;
             border-bottom: 1px solid #e5e7eb;
@@ -46,13 +45,9 @@
 
         .model-info {
             background: white;
-            padding: 20px;
+            padding: 25px;
             border-radius: 12px;
             margin-bottom: 20px;
-        }
-
-        .model-info h2 {
-            margin-top: 0;
         }
 
         .model-name {
@@ -62,7 +57,7 @@
 
         iframe {
             width: 100%;
-            height: 850px;
+            height: 900px;
             border: none;
             border-radius: 12px;
             background: white;
@@ -73,20 +68,14 @@
             padding: 25px;
             color: #64748b;
         }
-
     </style>
 </head>
 
 <body>
 
     <header>
-
         <h1>Qwen Base AI</h1>
-
-        <p>
-            AI Text Generation Application
-        </p>
-
+        <p>AI Text Generation Application</p>
     </header>
 
     <main>
@@ -114,17 +103,16 @@
         </section>
 
         <iframe
-            src="https://sajida12-qwen-base-model-api.hf.space"
+            src="https://sajida12-qwen-base-model-zerogpu.hf.space"
             title="Qwen Base AI Application"
-            loading="lazy">
+            loading="lazy"
+            allow="clipboard-read; clipboard-write">
         </iframe>
 
     </main>
 
     <footer>
-
         Qwen Base AI | Powered by Hugging Face
-
     </footer>
 
 </body>
