@@ -1,6 +1,10 @@
+
 # Qwen Base AI Website
 
-Frontend for the Qwen/Qwen2.5-0.5B pretrained model.
+Frontend website for Qwen/Qwen2.5-0.5B.
 
-Hosted using Vercel.
-The Gradio model application is hosted on Hugging Face.
+Frontend hosting: Vercel
+
+Backend hosting: Hugging Face Spaces
+
+Model: Qwen/Qwen2.5-0.5B
