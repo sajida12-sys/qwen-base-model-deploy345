@@ -1,3 +1,4 @@
+
 ---
 title: Qwen Base Model API
 emoji: 🤖
@@ -11,9 +12,12 @@ pinned: false
 # Qwen Base Model
 
 Original pretrained model:
+
 Qwen/Qwen2.5-0.5B
 
-Features:
+## Features
+
+- Original pretrained Qwen model
 - Text generation
 - Gradio interface
 - Hugging Face ZeroGPU support
